@@ -1,0 +1,13 @@
+{ 
+    "fashion_topic" :[
+    {"formals" : ["office","funeral","interview","marriage","formals","formal"]},
+    {"casuals" : ["college","date","party","casuals","casual"]}
+    ],
+
+    "colour_combos_casuals" : [
+        ["grey","black"],["white","black"],["white","dark_blue"],["white","grey"],
+        ["pink","purple"],["pink","black"],["pink","white"],["pink","blue"],
+        ["blue","white"],["blue","green"]
+    ]
+        
+}
