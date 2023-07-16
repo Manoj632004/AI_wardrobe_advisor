@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input[type=text] {
+            font-family: "Lucida Console", "Courier New", monospace;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+        input[type=number]{
+            font-family: "Lucida Console", "Courier New", monospace;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+        input[type=radio]{
+            font-family: "Lucida Console", "Courier New", monospace;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }   
+        input[type=submit]{
+            background-color: white;
+            color: black;
+            border: 2px solid #008CBA;
+            font-size: 16px;
+        }  
+        input[type=submit]:hover{
+            background-color: #008CBA;
+            color: white;
+        }
+
+    </style>
+    <form action="bio.html" method = "get">
+        
+        <h1 style="color:blue;" >First Name:</h1>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="fname"></label><br>
+
+        <h1 style="color:blue;" >Last Name:</h1>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="lname"></label><br>
+
+        <h1 style="color:blue;" >Enter age:</h1>
+        <input type="number" id="age" name="age" min="0" max="70"><br>
+        <label for="age"></label><br>
+
+        <h1 style="color:blue;" >Sex:</h1>
+        <input type="radio" id="male"  name = "sex" value="male">
+        <label for="sex">male</label><br>
+        <input type="radio" id="female" name = "sex" value="female"  >
+        <label for="sex">female</label><br>
+        <input type="radio" id="other" name = "sex" value= "other">
+        <label for="sex">other</label><br><br><br>
+        
+        <input type="submit" value="next">
+      </form>    
+
+</html>
